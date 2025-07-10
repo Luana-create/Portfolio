@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Opinião</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="linguagens">Linguagens que você considera essencial atualmente?</label><br>
+            <input type="checkbox" name="linguagem[]" value="Python">Python
+            <br>
+            <input type="checkbox" name="linguagem[]" value="C++">C++
+            <br>
+            <input type="checkbox" name="linguagem[]" value="Java">Java
+            <br>
+            <input type="checkbox" name="linguagem[]" value="PHP">PHP
+            <br>
+        </div>
+        <fieldset>
+            <label for="linguagem">Das opções anteriores,qual é a mais relevante?</label><br>
+            <input type="radio" name="linguagem" value="Python">Python
+            <br>
+            <input type="radio" name="linguagem" value="C++">C++
+            <br>
+            <input type="radio" name="linguagem" value="Java">Java
+            <br>
+            <input type="radio" name="linguagem" value="PHP">PHP
+            <br>
+            <select name="nota"
+            <option value="JavaScript">JavaScript</option>
+            <option value="Delphi">Delphi</option>
+            <option value="C#">C#</option>
+            </select>
+            <br>
+        </fieldset>
+        <table>
+            <tr>
+            <th><label for="nome">Nome:</label></th>
+            <td><input type="text" name="nome" id="name"></td>
+            </tr>
+            <tr>
+            <th><label for="email">E-mail:</label></th>
+            <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+            <th><label for="msg">Digite sua opinião sobre o Portfólio:</label></th>
+            <td><textarea name="msg" rows="5" cols="40"></textarea></td>
+            </tr>
+            <br><br>
+        </table>
+        <input name="submit" type="submit" id="submit"   value="Enviar">
+    </form>
+    
+</body>
+</html>
