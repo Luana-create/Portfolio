@@ -1,6 +1,6 @@
 /*General*/
 body {
-    margin: 0;
+    margin: 20px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -8,8 +8,19 @@ body {
             ;
     background-color: black
             ;
-    overflow: hidden;
+    overflow: auto;
     }
+h1{
+    margin-left: 300px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    margin-left: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
 
 strong {
     color: #22D4DF;
@@ -34,6 +45,8 @@ html {
 
 p {
     color:darkgray;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
