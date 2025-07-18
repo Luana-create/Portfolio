@@ -1,7 +1,7 @@
 /*General*/
 body {
     margin: 20px;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content:center
@@ -11,13 +11,14 @@ body {
     overflow: auto;
     }
 h1{
-    margin-left: 300px;
+
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    top: 0;
 }
 img{
-    margin-left: 300px;
-    border-radius: 20px;
+    margin-left: 200px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
 }
@@ -44,12 +45,15 @@ html {
 }
 
 p {
+    padding: none;
+    margin: none;
+    text-align: justify;
     color:darkgray;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
-
 a {
+    margin: 15px;
     color: DodgerBlue;
 
 }
@@ -63,7 +67,7 @@ a,
 /*DESKTOP NAV */
 
 nav, nav-links {
-    display: flex;
+    display: inline-flex;
 }
 
 nav { 
@@ -75,6 +79,14 @@ nav {
     gap:2rem;
     list-style: none;
     font-size: 1.5rem;
+    background-color: black; /* cor de fundo do menu */
+    width: 100%; /* para ocupar a largura total */
+    position: fixed; /* fixa no topo da página */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* para estar acima de outros elementos */
+}
+    
 }
 .a {
     color: black;
@@ -82,13 +94,14 @@ nav {
     text-decoration-color: white;
 }
 a:hover {
+
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
-
-
+*/
+/*minhas estilizações*/
 /*BOTOES
 
 .botaogithub {
