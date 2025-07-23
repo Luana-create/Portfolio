@@ -1,6 +1,6 @@
 /*General*/
 body {
-    margin: 20px;
+    /*
     height: 60vh;
     display: flex;
     align-items: center;
@@ -9,7 +9,11 @@ body {
     background-color: black
             ;
     overflow: auto;
-    }
+    }*/
+    margin: 20px;
+    background-color: black;
+}
+    
 h1{
 
     font-size: 50px;
@@ -18,26 +22,21 @@ h1{
 }
 img{
     margin-left: 200px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
 }
 
-strong {
+/*strong {
     color: #22D4DF;
 }
 span{
     color: #22D4FD;
     border: 1px solid #22D4FD;
     padding: 10px;
-}
+}*/
 h1 {
     color:darkgray;
-}
-
-header {
-    background-color: black;
-    color:dodgerblue;
 }
 
 html {
@@ -56,8 +55,6 @@ a {
     margin: 15px;
     color: DodgerBlue;
 
-}
-
 /*TRANSIÇÕES*/
 
 a,
@@ -66,17 +63,20 @@ a,
 }
 /*DESKTOP NAV */
 
-nav, nav-links {
+nav nav-links {
     display: inline-flex;
 }
 
 nav { 
     justify-content: space-around;
+    
     align-items: center;
+   
     height: 17vh;
+
 }
 .nav-links {
-    gap:2rem;
+    gap: 2px;
     list-style: none;
     font-size: 1.5rem;
     background-color: black; /* cor de fundo do menu */
